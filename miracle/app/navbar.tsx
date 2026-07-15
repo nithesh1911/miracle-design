@@ -29,8 +29,8 @@ export default function Footer() {
         onClick={openAccordion}
       />
       {!accordion && (
-        <div className="flex flex-col">
-          <div className="flex flex-col gap-2 text-black font-semibold bg-white shadow-2xl rounded-2xl px-2">
+        <div className="absolute top-30 right-7">
+          <div className="flex flex-col gap-2 text-white font-semibold bg-red-600 shadow-xl rounded-xl px-5 py-5">
             <Link href="/service">Services</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/pricing">Pricing</Link>
