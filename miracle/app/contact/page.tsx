@@ -1,13 +1,14 @@
 import Link from "next/dist/client/link";
 import Navbar from "../navbar";
 import { FaWhatsapp } from "react-icons/fa6";
+import Footer from "../footer";
 
 export default function Contact() {
   return (
-    <div className="font-serif">
+    <div className="font-serif bg-[#0b1f3a] h-screen">
       <Navbar />
       <div className="p-10 text-center flex flex-col gap-5 items-center">
-        <h1 className="text-4xl font-bold">Contact Us</h1>
+        <h1 className="text-4xl font-bold text-[#d4af27]">Contact Us</h1>
 
         <p className="mt-5 font-sans">WhatsApp: +91 7845755721</p>
 
