@@ -10,10 +10,10 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="font-serif">
+    <div className="font-serif bg-[#0b1f3a] h-screen">
       <Navbar />
 
-      <h1 className="text-4xl font-bold text-center mt-10 text-white">
+      <h1 className="text-4xl font-bold text-center mt-10 text-[#d4af37]">
         Our Portfolio
       </h1>
 
@@ -23,7 +23,7 @@ export default function Portfolio() {
 
       <div className="grid md:grid-cols-4 gap-5 p-10">
         {images.map((item) => (
-          <div className="bg-white text-black p-10 rounded-xl text-center">
+          <div className="bg-[#0f3d2e] text-[#d4af37] p-10 rounded-xl border-[#d4af37] text-center">
             <h2 className="font-bold">{item}</h2>
           </div>
         ))}
